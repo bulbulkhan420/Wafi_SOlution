@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    border: 1px solid black;
+    
+}
+.head >div{
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.bodym{
+border: 2px solid black;
+padding-top: 5px;
+box-sizing: border-box;
+}
+.bodysearch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.bodysearch div input{
+    padding: 2px 0px 2px 3px;
+}
+.headerbody{
+   display: flex;
+   justify-content: space-around;
+    border: 1px solid black;
+   line-height: 40px;
+}
+.headerbody>div{
+    width: 100%;
+    text-align: center;
+}
+.databody{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    text-align: center;
+   line-height: 40px; 
+  
+}
+.databody>div{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 80px;
+    
+}
+.email{
+    overflow-x: scroll;
+}
+.bodym{
+    position: relative;
+}
+.pagealign{
+    position: absolute;
+   bottom: 0%;
+   right: 0%;
+   padding: 1rem;
+}
+.pageinfo{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    padding: 1rem;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    border: 1px solid black;
+    width: 100px;
+    justify-content: space-between;
+}
+.page>div{
+    text-align: center;
+   
+}
+.page>div:hover{
+    cursor: pointer;
+}
+
+.popup{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 5;
+    background-color: aliceblue;
+}
+.popup>button{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+}

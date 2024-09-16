@@ -1,0 +1,15 @@
+.page{
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    border: 1px solid black;
+    width: 150px;
+    justify-content: space-between;
+}
+.page>div{
+    text-align: center;
+   
+}
+.page>div:hover{
+    cursor: pointer;
+}
